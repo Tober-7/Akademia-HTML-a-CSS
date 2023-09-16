@@ -1,3 +1,37 @@
+/*#region Fonts*/
+
+@font-face {
+    font-family: SF-Pro-Display;
+    src: url(src/font/SF-Pro-Display-Light.woff);
+    font-weight: 0;
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    src: url(src/font/SF-Pro-Display-Regular.woff);
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    src: url(src/font/SF-Pro-Display-Medium.woff);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    src: url(src/font/SF-Pro-Display-Semibold.woff);
+    font-weight: 150;
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    src: url(src/font/SF-Pro-Display-Bold.woff);
+    font-weight: 200;
+}
+
+/*#endregion*/
+
 /*#region Other*/
 
 html, body {
@@ -22,12 +56,10 @@ header, body{
     justify-content: center;
     align-items: center;
 
-    min-width: 1116px;
     max-width: 1296px;
-    height: 49.2px;
     
-    padding: 0 12px;
-    margin: auto;
+    padding: 8.8px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 
     border-bottom: solid 1px #D7EAFF ;
 }
@@ -35,10 +67,11 @@ header, body{
 .header-text{
     cursor: default;
 
-    margin-right: 40px;
+    margin: 0 48px 0 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 
@@ -49,36 +82,36 @@ header, body{
     justify-content: space-between;
     align-items: center;
 
-    width: 185px;
-    height: 32px;
+    width: 185.09px;
+    height: 31.6px;
 
     padding: 6px 10px;
-
-    background-color: #EEEEEE;
-
+    
+    background-color: #F0F0F1;
+    
     border-style: solid;
     border-width: 1px;
     border-radius: 25px;
-    border-color: #DDDDDD;
-}
+    border-color: #E4E4E5;
 
-.header-button-text{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    color: #808080;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    color: #989CA2;
     letter-spacing: 1px;
     
     transition: 0.2s;
 }
 
-.header-button:hover .header-button-text{
+.header-button:hover{
     color: #000000;
 
     transition: 0.2s;
 }
 
 .header-button-img{
-    width: 1.1rem;
+    width: 18px;
+    height: 14px;
 }
 
 /*#endregion*/
@@ -90,12 +123,10 @@ header, body{
     justify-content: space-between;
     align-items: center;
 
-    min-width: 1204px;
     max-width: 1296px;
-    height: 80px;
 
-    padding: 0 12px;
-    margin: auto;
+    padding: 16.7px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .nav-div-left{
@@ -113,22 +144,24 @@ header, body{
 .nav-img{
     cursor: pointer;
 
-    margin-right: 64px;
-
     width: 120px;
     height: 28px;
+    
+    margin-right: 64px;
+    padding: 5px 0;
 }
 
 .nav-button-category{
     cursor: pointer;
 
     padding: 8px;
-    margin-right: 14px;
+    margin-right: 16px;
 
     background-color: transparent;
     border-style: none;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 100;
     font-size: 14px;
     letter-spacing: 1px;
 
@@ -196,10 +229,11 @@ header, body{
     border-style: none;
     border-radius: 5px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 14px;
-    color: white;
-    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
 }
 
 /*#endregion*/
@@ -213,19 +247,22 @@ header, body{
 .section-1-div-main{
     display: flex;
     align-items: center;
+    align-items: start;
 
-    min-width: 1204px;
     max-width: 1296px;
     height: 440px;
 
-    padding: 0 12px;
-    margin: auto;
+    margin: 0 max(75px, calc((100vw - 1296px) * 0.5));
 }
 
 .section-1-div-text{
+    display: flex;
+    flex-wrap: wrap;
+
     max-width: 526px;
 
-    padding-top: 5px;
+    padding: 48px 0;
+    margin: 48px 18px 48px 0;
 }
 
 .section-1-div-img-main{
@@ -240,21 +277,24 @@ header, body{
 .section-1-text-1{
     cursor: default;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 39px;
-    color: #FFFFFF;
-    line-height: 48px;
+    margin: 0 0 24px 0;
 
-    margin-bottom: 24px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 48px;
 }
 
 .section-1-text-2{
     cursor: default;
 
-    margin-bottom: 75px;
+    margin: 0 0 16px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 1px;
     line-height: 24px;
@@ -263,8 +303,6 @@ header, body{
 .section-1-img-main{
     width: 543px;
     height: 418px;
-
-    margin: 0 0 0 16px;
     
     z-index: 1;
 }
@@ -296,18 +334,20 @@ header, body{
     align-items: center;
     flex-direction: column;
 
-    min-width: 1204px;
     max-width: 1296px;
 
     padding: 80px 12px 72px 12px;
-    margin: auto;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .section-2-text-1{
     cursor: default;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
 }
 
 .section-2-text-2{
@@ -318,10 +358,11 @@ header, body{
     margin: 8px 0;
 
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 16px;
     color: #666B8D;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     line-height: 24px;
 }
 
@@ -342,11 +383,13 @@ header, body{
 .section-2-text-card-1{
     cursor: default;
 
-    padding: 14px 0 8px 0;
+    padding: 12px 0 8px 0;
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .section-2-text-card-2{
@@ -354,11 +397,12 @@ header, body{
 
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 14px;
     color: #666B8D;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 21px;
 }
 
 /*#endregion*/
@@ -367,21 +411,20 @@ header, body{
 
 .section-3-div-main{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
-    min-width: 1204px;
     max-width: 1320px;
-    height: 398px;
 
     padding: 72px 0;
-    margin: auto;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .section-3-div-text{
     padding: 0 0 0 12px;
 
-    width: 50%;
+    min-width: 1px;
+    max-width: 636px;
 }
 
 .section-3-div-cards{
@@ -389,30 +432,46 @@ header, body{
     justify-content: right;
     flex-wrap: wrap;
 
-    padding: 0 8px 0 0;
+    max-width: 502px;
 
-    width: 50%;
+    padding: 0 8px 0 0;
 }
 
 .section-3-text-1{
     cursor: default;
 
-    padding: 0 0 24px 0;
-    margin: 0;
+    margin: 0 0 48px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
 }
 
 .section-3-text-2{
     cursor: default;
 
-    margin: 24px 0 0 0;
+    margin: 0 0 24px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 16px;
     color: #666B8D;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.section-3-text-3{
+    cursor: default;
+
+    margin: 0 0 16px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
     line-height: 24px;
 }
 
@@ -447,19 +506,29 @@ header, body{
 .section-3-text-card-1{
     cursor: default;
 
-    margin: 0;
+    height: 90px;
+    line-height: 90px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 4px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
     font-size: 90px;
+    letter-spacing: 1px;
 }
 
 .section-3-text-card-2{
     cursor: default;
 
+    height: 27px;
+    line-height: 27px;
+
     margin: 0;
     
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
     font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .section-3-text-card-1[data-color="1"], .section-3-text-card-2[data-color="1"]{
@@ -484,12 +553,11 @@ header, body{
     justify-content: space-between;
     align-items: center;
 
-    min-width: 1204px;
     max-width: 1296px;
     height: 240px;
 
     padding: 72px 12px;
-    margin: auto;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .section-4-div-text{
@@ -499,8 +567,13 @@ header, body{
 .section-4-text-main{
     cursor: default;
 
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
 }
 
 .section-4-div-cards{
@@ -532,21 +605,23 @@ header, body{
 
     margin: 0 0 8px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .section-4-text-card-2{
     cursor: default;
 
-    margin: 0;
+    margin: 0 0 10px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14.5px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 14px;
     color: #666B8D;
-    letter-spacing: 0.5px;
-    line-height: 20px;
+    letter-spacing: 1px;
+    line-height: 21px;
 }
 
 .section-4-div-img{
@@ -564,7 +639,7 @@ header, body{
     width: 21px;
     height: 15px;
 
-    transform: translate(0, +21px);
+    transform: translate(0, +18px);
 }
 
 /*#endregion*/
@@ -576,11 +651,10 @@ header, body{
     flex-direction: column;
     align-items: center;
 
-    min-width: 1204px;
     max-width: 1296px;
 
     padding: 72px 12px;
-    margin: auto;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .section-5-div-text{
@@ -593,8 +667,11 @@ header, body{
 
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
 }
 
 .section-5-div-cards{
@@ -607,15 +684,24 @@ header, body{
     flex-direction: column;
     align-items: start;
 
-    padding: 0 12px 16px 12px;
-    margin: 0 48px;
+    max-width: 526px;
+
+    padding: 0 12px;
 
     z-index: 1;
 }
 
+.section-5-div-card-left{
+    margin: 0 48px 0 0;
+}
+
+.section-5-div-card-right{
+    margin: 0 0 0 48px;
+}
+
 .section-5-img-card-school{
-    width: 526px;
-    height: 270px;
+    max-width: 526px;
+    max-height: 270.25px;
 }
 
 .section-5-div-card-place{
@@ -623,7 +709,7 @@ header, body{
     justify-content: left;
     align-items: center;
 
-    margin: 24px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 .section-5-img-card-place{
@@ -636,16 +722,18 @@ header, body{
 
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 16px;
     color: #666B8D;
+    letter-spacing: 1px;
 }
 
 .section-5-div-card-bottom{
     display: flex;
     align-items: end;
 
-    margin: 24px 0 0 0;
+    margin: 24px 0;
 }
 
 .section-5-text-card-bottom-1{
@@ -653,15 +741,17 @@ header, body{
 
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
 .section-5-text-card-bottom-2{
     cursor: pointer;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 100;
     font-size: 18px;
     color: #3597FF;
     letter-spacing: 1px;
@@ -684,7 +774,7 @@ header, body{
     
     z-index: 0;
     
-    transform: translate(+215.5px, -330px);
+    transform: translate(+222.5px, -340px);
 }
 
 /*#endregion*/
@@ -699,22 +789,26 @@ header, body{
     display: flex;
     align-items: center;
 
-    min-width: 1204px;
-    max-width: 1296px;
+    max-width: 1320px;
 
-    padding: 48px 12px 0 12px;
-    margin: auto;
+    padding: 48px 0 0 0;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .section-6-div-left{
-    padding: 16px 0 0 0;
+    padding: 16px 12px 0 12px;
 }
 
 .section-6-text-main{
+    cursor: default;
+
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
 }
 
 .section-6-div-text{
@@ -728,13 +822,16 @@ header, body{
 }
 
 .section-6-text-quote{
+    cursor: default;
+
     margin: 0 0 48px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 16px;
     color: #666B8D;
-    letter-spacing: 0.4px;
-    line-height: 25px;
+    letter-spacing: 1px;
+    line-height: 24px;
 }
 
 .section-6-div-person{
@@ -746,13 +843,16 @@ header, body{
 }
 
 .section-6-text-name{
+    cursor: default;
+
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 25;
     font-size: 14px;
     color: #666B8D;
     letter-spacing: 1px;
-    line-height: 18px;
+    line-height: 19px;
 }
 
 .section-6-div-right{
@@ -803,11 +903,10 @@ header, body{
     flex-direction: column;
     align-items: center;
 
-    min-width: 1204px;
     max-width: 1296px;
 
     padding: 48px 12px 0 12px;
-    margin: auto;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
 }
 
 .section-7-text-main{
@@ -816,8 +915,11 @@ header, body{
     margin: 0 0 48px 0;
 
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
     font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
 }
 
 .section-7-div-cards{
@@ -825,6 +927,7 @@ header, body{
     justify-content: space-between;
 
     width: 100%;
+    height: 276px;
 }
 
 .section-7-button-card{
@@ -864,19 +967,21 @@ header, body{
     margin: 0 0 8px 0;
 
     text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
     font-size: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .section-7-text-card-2{
     margin: 0;
 
     text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 16px;
     color: #666B8D;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     line-height: 24px;
 }
 
@@ -897,7 +1002,7 @@ header, body{
     width: 21px;
     height: 15px;
 
-    transform: translate(0, -24px);
+    transform: translate(0, -21px);
 }
 
 .section-7-div-slide-container{
@@ -988,12 +1093,15 @@ header, body{
 }
 
 .section-7-text-slide-1{
+    cursor: default;
+
     margin: 0 0 16px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 18px;
     color: #FFFFFF;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .section-7-div-slide-border{
@@ -1004,32 +1112,41 @@ header, body{
 }
 
 .section-7-text-slide-2{
+    cursor: default;
+
     margin: 24px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27.2px;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
     color: #FFFFFF;
-    letter-spacing: 0px;
-    line-height: 35px;
+    letter-spacing: 1px;
+    line-height: 34px;
 }
 
 .section-7-text-slide-3{
+    cursor: default;
+
     margin: 0 0 48px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 16px;
     color: #FFFFFF;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     line-height: 25px;
 }
 
 .section-7-text-slide-4{
+    cursor: default;
+
     margin: 0 0 6px 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
     font-size: 16px;
     color: #FFFFFF;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .section-7-div-img-o{
@@ -1094,6 +1211,968 @@ header, body{
     background-color: #3597FF;
 
     transition: 0.2s;
+}
+
+/*#endregion*/
+
+/*#region Section 8*/
+
+.section-8-div-container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 48px 0;
+}
+
+.section-8-div-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1296px;
+
+    padding: 48px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+
+    border-bottom: solid 1px #D7EAFF;
+}
+
+.section-8-text-main-1{
+    cursor: default;
+
+    margin: 0 0 48px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-8-text-main-2{
+    cursor: default;
+
+    padding: 0 48px;
+    margin: 0 48px 96px 48px;
+
+    text-align: center;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.section-8-text-main-3{
+    cursor: default;
+
+    width: 100%;
+    line-height: 27px;
+
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 18px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-8-div-border-main{
+    display: flex;
+
+    width: 100%;
+    height: 0;
+}
+
+.section-8-border-main{
+    width: 50px;
+    height: 0;
+
+    margin: 24.5px 0;
+
+    border-bottom: solid 1px #AAB5C6;
+}
+
+.section-8-div-students{
+    display: flex;
+
+    width: 100%;
+
+    padding: 48px 0 0 0;
+}
+
+.section-8-div-student{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.section-8-div-left{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 416px;
+
+    padding: 0 24px 0 0;
+}
+
+.section-8-text-left-1{
+    cursor: default;
+
+    margin: 0 0 48px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    color: #212529;
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+
+.section-8-text-left-2{
+    cursor: default;
+
+    margin: 0 0 16px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.section-8-div-right{
+    display: flex;
+
+    width: 636px;
+    height: 350px;
+}
+
+.section-8-img-right{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+}
+
+.section-8-button-right{
+    position: absolute;
+
+    padding: 0;
+
+    background-color: transparent;
+    border: none;
+
+    transform: translate(285px, 142px);
+}
+
+.section-8-a-right{
+    cursor: pointer;
+    
+    position: absolute;
+
+    margin: 10px;
+
+    width: 636px;
+    height: 350px;
+}
+
+.section-8-div-arrows{
+    display: flex;
+    justify-content: left;
+
+    padding: 6px 0;
+
+    width: 100%;
+}
+
+.section-8-button-arrow{
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 6px 0 0;
+
+    background-color: transparent;
+    border: none;
+}
+
+.section-8-div-dots{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    width: 100%;
+    height: 24px;
+
+    margin: 0 0 3px 0;
+}
+
+.section-8-button-dot{
+    cursor: pointer;
+
+    width: 9px;
+    height: 9px;
+
+    margin: 0 3px;
+    padding: 0;
+
+    background-color: #D7EAFF;
+    border: none;
+
+    border-radius: 50%;
+
+    transition: 0.2s;
+}
+
+.section-8-button-dot:hover{
+    background-color: #3597FF;
+}
+
+.section-8-button-dot--active{
+    background-color: #3597FF;
+
+    transition: 0.2s;
+}
+
+.section-8-div-end{
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 24px;
+}
+
+.section-8-div-end > a{
+    text-decoration: none;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #3597FF;
+    letter-spacing: 1px;
+}
+
+.section-8-div-end > img{
+    height: 1rem;
+
+    margin: 0 0 0 8px;
+}
+
+.section-8-div-img-a{
+    display: flex;
+    justify-content: left;
+
+    height: 0;
+}
+
+.section-8-img-a{
+    position: absolute;
+
+    width: 435px;
+    height: 435px;
+    
+    z-index: -1;
+    
+    transform: translate(-221px, -143px);
+}
+
+/*#endregion*/
+
+/*#region Section 9*/
+
+.section-9-div-container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 48px 0;
+}
+
+.section-9-div-first{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1296px;
+
+    padding: 48px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+
+    border-bottom: solid 1px #D7EAFF;
+}
+
+.section-9-text-first{
+    cursor: default;
+
+    width: 100%;
+    
+    margin: 0 0 48px 0;
+    
+    text-align: center;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-9-div-first-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.section-9-div-first-card{
+    display: flex;
+    flex-direction: column;
+
+    width: 306px;
+
+    padding: 48px 12px 0 12px;
+}
+
+.section-9-img-first-card{
+    width: 43px;
+    height: 44px;
+}
+
+.section-9-div-first-card-text{
+    padding: 24px 0 16px 0;
+}
+
+.section-9-text-first-card-1{
+    cursor: default;
+
+    margin: 0 0 24px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.section-9-text-first-card-2{
+    cursor: default;
+
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.section-9-div-second{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1320px;
+
+    padding: 48px 0;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-9-text-second{
+    cursor: default;
+
+    width: 100%;
+    
+    margin: 24px 0 72px 0;
+    
+    text-align: center;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-9-div-second-cards{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.section-9-div-second-card{
+    padding: 0 12px;
+    margin: 0 0 24px 0;
+}
+
+.section-9-img-second-card{
+    width: 306px;
+    height: 366.75px;
+
+    border-radius: 5px;
+}
+
+.section-9-div-second-card-text{
+    padding: 8px 0 16px 0;
+}
+
+.section-9-text-second-card-1{
+    cursor: default;
+
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #666B8D;
+    letter-spacing: 1px;
+}
+
+.section-9-text-second-card-2{
+    cursor: default;
+
+    margin: 16px 0 0 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.section-9-text-second-card-3{
+    cursor: default;
+
+    height: 24px;
+    line-height: 24px;
+
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
+}
+
+/*#endregion*/
+
+/*#region Section 10*/
+
+.section-10-div-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1320px;
+
+    padding: 48px 0;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-10-img-left{
+    width: 636px;
+    height: 451.13px;
+
+    padding: 0 12px;
+}
+
+.section-10-div-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: fit-content;
+
+    padding: 0 12px;
+}
+
+.section-10-text-right-1{
+    cursor: default;
+
+    margin: 0 0 24px 0;
+
+    font-family: SF-Pro-Display;
+    font-weight: 200;
+    font-size: 32px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-10-text-right-2{
+    cursor: default;
+
+    margin: 0 0 48px 0;
+
+    font-family: SF-Pro-Display;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.section-10-div-a{
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 24px;
+}
+
+.section-10-div-a > a{
+    text-decoration: none;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #3597FF;
+    letter-spacing: 1px;
+}
+
+.section-10-div-a > img{
+    height: 1rem;
+
+    margin: 0 0 0 8px;
+}
+
+/*#endregion*/
+
+/*#region Section 11*/
+
+.section-11-div-main{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1296px;
+
+    padding: 72px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-11-div-left{
+    display: flex;
+    align-items: center;
+    
+    max-width: 440px;
+}
+
+.section-11-div-left > p{
+    cursor: default;
+
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-11-div-right{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    max-width: 856px;
+
+    padding: 0 0 0 12px;
+}
+
+.section-11-div-right > img{
+    margin: 16px 48px 16px 0;
+}
+
+.section-11-div-right > div > img{
+    margin: 16px 48px 16px 0;
+}
+
+.section-11-div-right > div{
+    height: 81px;
+}
+
+/*#endregion*/
+
+/*#region Section 12*/
+
+.section-12-div-main{
+    display: flex;
+
+    width: 100%;
+
+    margin: 100px 0;
+}
+
+.section-12-div-main > div{
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+}
+
+.section-12-img{
+    position: absolute;
+
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+
+    object-fit: cover;
+}
+
+.section-12-text-img{
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    position: absolute;
+
+    width: calc(100vw / 6);
+    height: calc(100vw / 6 - 8px);
+
+    padding: 0 0 8px 0;
+    margin: 0;
+
+    font-family: SF-Pro-Display;
+    font-weight: 50;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+
+    transition: 0.2s;
+}
+
+.section-12-text-img:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+
+    transition: 0.2s;
+}
+
+/*#endregion*/
+
+/*#region Section 13*/
+
+.section-13-div-main{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1296px;
+
+    padding: 72px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-13-div-left{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 526px;
+
+    padding: 4px 0 0 0;
+}
+
+.section-13-text-left-1{
+    cursor: default;
+
+    margin: 0 0 16px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 40px;
+    color: #212529  ;
+    letter-spacing: 1px;
+}
+
+.section-13-text-left-2{
+    cursor: default;
+
+    margin: 0 0 24px 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #666B8D;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.section-13-div-imgs{
+    display: flex;
+    align-items: center;
+
+    margin: 0 0 24px 0;
+}
+
+.section-13-img-left{
+    cursor: pointer;
+
+    margin: 0 1rem 0 0;
+}
+
+.section-13-button-left{
+    cursor: pointer;
+
+    max-width: 208px;
+    min-height: 58.6px;
+
+    padding: 18px 50px;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+
+    background-color: #3597FF;
+    border: 0;
+    border-radius: 5px;
+}
+
+.section-13-div-right{
+    display: flex;
+    justify-content: right;
+}
+
+.section-13-img-right{
+    width: 636px;
+    height: 357.9px;
+
+    padding: 0 0 0 12px;
+}
+
+/*#endregion*/
+
+/*#region Section 14*/
+
+.section-14-div-main{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1296px;
+
+    padding: 72px 12px;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-14-text-main{
+    cursor: default;
+
+    margin: 0 0 96px 0;
+
+    text-align: center;
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
+.section-14-div-imgs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-14-div-imgs > div{
+    display: flex;
+    align-items: center;
+}
+
+.section-14-img-1{
+    padding: 0 24px;
+}
+
+.section-14-img-2{
+    padding: 0 8px;
+    margin: 8px 0 0 0;
+}
+
+/*#endregion*/
+
+/*#region Section 15*/
+
+.section-15-div-main{
+    max-width: 1320px;
+
+    padding: 48px 0;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-15-div-main > div{
+    display: flex;
+    justify-content: left;
+
+    padding: 48px;
+    margin: 0 0 48px 0;
+
+    background-color: #D7EAFF;
+    border-radius: 0.25rem;
+}
+
+.section-15-text{
+    cursor: default;
+
+    min-width: 582px;
+
+    padding: 0 12px 0 36px;
+    margin: 0;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 0;
+    font-size: 20px;
+    color: #212521;
+    letter-spacing: 1px;
+}
+
+.section-15-div-input{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 0 0 0 12px;
+}
+
+.section-15-div-input > input{
+    width: 100%;
+    height: 28px;
+
+    padding: 6px 60px 6px 20px;
+
+    border-radius: 0.4rem;
+
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1px;
+
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.section-15-div-input > input:focus{
+    outline: none;
+}
+
+.section-15-div-input > img{
+    cursor: pointer;
+
+    position: absolute;
+
+    padding: 0 24px 0 0;
+
+    z-index: 1;
+}
+
+.section-15-div-input > input::placeholder{
+    font-family: SF-Pro-Display, sans-serif;
+    font-weight: 50;
+    font-size: 14px;
+    color: #666B8D;
+    letter-spacing: 1px;
+}
+
+/*#endregion*/
+
+/*#region Section 16*/
+
+.section-16-div-main{
+    display: flex;
+
+    max-width: 1320px;
+
+    padding: 48px 0;
+    margin: 0 max(75px, calc((100vw - 1320px) * 0.5));
+}
+
+.section-16-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding: 0 12px;
+}
+
+.section-16-img-main{
+    width: 112px;
+    height: 27px;
+}
+
+.section-16-text-main{
+    width: 416px;
+
+    margin: 10px 0 2px 0;
+
+    font-family: SF-Pro-Display;
+    font-weight: 50;
+    font-size: 13px;
+    color: #566B8D;
+    letter-spacing: 1px;
+}
+
+.section-16-text-next{
+    width: 306px;
+
+    margin: 3px 0 2px 0;
+
+    font-family: SF-Pro-Display;
+    font-weight: 50;
+    font-size: 13px;
+    color: #566B8D;
+    letter-spacing: 1px;
+}
+
+.section-16-a{
+    width: 196px;
+
+    margin: 0 0 2px 0;
+
+    font-family: SF-Pro-Display;
+    font-weight: 50;
+    font-size: 13px;
+    color: #566B8D;
+    letter-spacing: 1px;
+}
+
+.section-16-div-2{
+    width: 306px;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    padding: 0 12px;
+}
+
+.section-16-img-right{
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+
+    margin: 0 8px;
+}
+
+.section-16-img-footer{
+    position: absolute;
+
+    object-fit: cover;
+
+    width: 108px;
+    height: 76px;
+
+    right: 0;
+
+    transform: translate(0, 26px);
 }
 
 /*#endregion*/
