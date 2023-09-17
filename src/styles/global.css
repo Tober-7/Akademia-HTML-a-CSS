@@ -1,32 +1,32 @@
 /*#region Fonts*/
 
 @font-face {
-    font-family: SF-Pro-Display;
-    src: url(src/font/SF-Pro-Display-Light.woff);
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Light.woff) format(woff);
     font-weight: 0;
 }
 
 @font-face {
-    font-family: SF-Pro-Display;
-    src: url(src/font/SF-Pro-Display-Regular.woff);
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Regular.woff) format(woff);
     font-weight: 50;
 }
 
 @font-face {
-    font-family: SF-Pro-Display;
-    src: url(src/font/SF-Pro-Display-Medium.woff);
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Medium.woff) format(woff);
     font-weight: 100;
 }
 
 @font-face {
-    font-family: SF-Pro-Display;
-    src: url(src/font/SF-Pro-Display-Semibold.woff);
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Semibold.woff) format(woff);
     font-weight: 150;
 }
 
 @font-face {
-    font-family: SF-Pro-Display;
-    src: url(src/font/SF-Pro-Display-Bold.woff);
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Bold.woff) format(woff);
     font-weight: 200;
 }
 
@@ -69,9 +69,10 @@ header, body{
 
     margin: 0 48px 0 0;
 
-    font-family: SF-Pro-Display, sans-serif;
+    font-family: "SF-Pro-Display", sans-serif;
     font-weight: 50;
     font-size: 13px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -89,10 +90,8 @@ header, body{
     
     background-color: #F0F0F1;
     
-    border-style: solid;
-    border-width: 1px;
     border-radius: 25px;
-    border-color: #E4E4E5;
+    border: solid 1px #E4E4E5;
 
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
@@ -163,6 +162,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 14px;
+    color: #212529;
     letter-spacing: 1px;
 
     transition: 0.2s;
@@ -234,6 +234,13 @@ header, body{
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 1px;
+}
+
+.nav-div-right > a{
+    position: absolute;
+
+    width: 157px;
+    height: 46.6px;
 }
 
 /*#endregion*/
@@ -389,6 +396,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 20px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -608,6 +616,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 20px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -744,6 +753,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 20px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -970,6 +980,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 20px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -1556,6 +1567,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 20px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -1639,6 +1651,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 20px;
+    color: #212529;
     letter-spacing: 1px;
 }
 
@@ -2027,7 +2040,7 @@ header, body{
     font-family: SF-Pro-Display, sans-serif;
     font-weight: 0;
     font-size: 20px;
-    color: #212521;
+    color: #212529;
     letter-spacing: 1px;
 }
 

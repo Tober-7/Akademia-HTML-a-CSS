@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="src/img/cropped-Favicon-32x32.webp">
+    <link rel="icon" type="image/x-icon" href="src/img/cropped-Favicon-192x192.webp">
+
+    <link rel="stylesheet" type="text/css" href="src/styles/form.css">
+</head>
+<body>
+    <div class="div-container">
+        <form>
+            <div class="div-input">
+                <span class="text-type">Button</span>
+                <input class="input-button" type="button" onclick="alert('Clicked a Button')" value="Button">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Checkbox</span>
+                <div class="div-vertical">
+                    <input class="input-checkbox" type="checkbox">
+                    <input class="input-checkbox" type="checkbox">
+                    <input class="input-checkbox" type="checkbox">
+                </div>
+            </div>
+            <div class="div-input">
+                <span class="text-type">Color</span>
+                <input class="input-color" type="color" value="#000000" color colorpick-eyedropper-active="false">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Date</span>
+                <input class="input-date" type="date">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Datetime Local</span>
+                <input class="input-datetime" type="datetime-local">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Email</span>
+                <input class="input-email" type="email" placeholder="Your email address…">
+            </div>
+            <div class="div-input">
+                <span class="text-type">File</span>
+                <input class="input-file" type="file">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Hidden</span>
+                <input type="hidden">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Image</span>
+                <input type="image" src="src/img/send.svg" alt="Missing Image" onclick="alert('Sending Image')">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Month</span>
+                <input class="input-month" type="month">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Number</span>
+                <input class="input-number" type="number" value="0" min="0" max="1000">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Password</span>
+                <input class="input-password" type="password" maxlength="15" placeholder="Your password…">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Radio</span>
+                <div class="div-vertical">
+                    <input class="input-radio" type="radio" name="radio">
+                    <input class="input-radio" type="radio" name="radio">
+                    <input class="input-radio" type="radio" name="radio">
+                </div>
+            </div>
+            <div class="div-input">
+                <span class="text-type">Range</span>
+                <input class="input-range" type="range" value="50" min="0" max="100" step="10">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Reset</span>
+                <input class="input-reset" type="reset" value="Reset">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Search</span>
+                <input class="input-search" type="search" placeholder="Search…">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Submit</span>
+                <input class="input-submit" type="submit" value="Submit">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Tel</span>
+                <input class="input-tel" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{3} [0-9]{3}" placeholder="123 456 789 123" maxlength="15">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Text</span>
+                <input class="input-text" type="text" placeholder="Text…" maxlength="15">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Time</span>
+                <input class="input-time" type="time">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Url</span>
+                <input class="input-url" type="url" placeholder="https://openlab.sk/">
+            </div>
+            <div class="div-input">
+                <span class="text-type">Week</span>
+                <input class="input-week" type="week">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
