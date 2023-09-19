@@ -47,6 +47,25 @@ header, body{
     display: none;
 }
 
+*{
+    font-family: "SF-Pro-Display", sans-serif;
+}
+
+/*#endregion*/
+
+/*#region General*/
+
+.text-title{
+    cursor: default;
+
+    margin: 0;
+
+    font-weight: 0;
+    font-size: 40px;
+    color: #212529;
+    letter-spacing: 1px;
+}
+
 /*#endregion*/
 
 /*#region Header*/
@@ -69,7 +88,6 @@ header, body{
 
     margin: 0 48px 0 0;
 
-    font-family: "SF-Pro-Display", sans-serif;
     font-weight: 50;
     font-size: 13px;
     color: #212529;
@@ -93,7 +111,6 @@ header, body{
     border-radius: 25px;
     border: solid 1px #E4E4E5;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 12px;
     color: #989CA2;
@@ -159,7 +176,6 @@ header, body{
     background-color: transparent;
     border-style: none;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 14px;
     color: #212529;
@@ -229,7 +245,6 @@ header, body{
     border-style: none;
     border-radius: 5px;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 14px;
     color: #FFFFFF;
@@ -286,7 +301,6 @@ header, body{
 
     margin: 0 0 24px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 0;
     font-size: 40px;
     color: #FFFFFF;
@@ -299,7 +313,6 @@ header, body{
 
     margin: 0 0 16px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #FFFFFF;
@@ -348,13 +361,7 @@ header, body{
 }
 
 .section-2-text-1{
-    cursor: default;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
+    margin: 40px 0;
 }
 
 .section-2-text-2{
@@ -365,7 +372,6 @@ header, body{
     margin: 8px 0;
 
     text-align: center;
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -393,7 +399,6 @@ header, body{
     padding: 12px 0 8px 0;
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 20px;
     color: #212529;
@@ -405,7 +410,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 14px;
     color: #666B8D;
@@ -446,15 +450,7 @@ header, body{
 }
 
 .section-3-text-1{
-    cursor: default;
-
     margin: 0 0 48px 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-3-text-2{
@@ -462,7 +458,6 @@ header, body{
 
     margin: 0 0 24px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -475,7 +470,6 @@ header, body{
 
     margin: 0 0 16px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -519,7 +513,6 @@ header, body{
 
     margin: 0 0 4px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 90px;
     letter-spacing: 1px;
@@ -533,7 +526,6 @@ header, body{
 
     margin: 0;
     
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 18px;
     letter-spacing: 1px;
@@ -572,18 +564,6 @@ header, body{
     max-width: 400px;
 }
 
-.section-4-text-main{
-    cursor: default;
-
-    margin: 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
-}
-
 .section-4-div-cards{
     display: flex;
 }
@@ -613,7 +593,6 @@ header, body{
 
     margin: 0 0 8px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 20px;
     color: #212529;
@@ -625,7 +604,6 @@ header, body{
 
     margin: 0 0 10px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 14px;
     color: #666B8D;
@@ -669,18 +647,6 @@ header, body{
 .section-5-div-text{
     padding: 0 12px;
     margin: 0 0 64px 0;
-}
-
-.section-5-text-main{
-    cursor: default;
-
-    margin: 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-5-div-cards{
@@ -731,7 +697,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 0;
     font-size: 16px;
     color: #666B8D;
@@ -750,7 +715,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 20px;
     color: #212529;
@@ -760,7 +724,6 @@ header, body{
 .section-5-text-card-bottom-2{
     cursor: pointer;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 18px;
     color: #3597FF;
@@ -809,18 +772,6 @@ header, body{
     padding: 16px 12px 0 12px;
 }
 
-.section-6-text-main{
-    cursor: default;
-
-    margin: 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
-}
-
 .section-6-div-text{
     padding: 42px 16px 0 16px;
 }
@@ -836,7 +787,6 @@ header, body{
 
     margin: 0 0 48px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -857,7 +807,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 25;
     font-size: 14px;
     color: #666B8D;
@@ -920,16 +869,9 @@ header, body{
 }
 
 .section-7-text-main{
-    cursor: default;
-
     margin: 0 0 48px 0;
 
     text-align: center;
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-7-div-cards{
@@ -977,7 +919,6 @@ header, body{
     margin: 0 0 8px 0;
 
     text-align: start;
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 20px;
     color: #212529;
@@ -988,7 +929,6 @@ header, body{
     margin: 0;
 
     text-align: start;
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -1108,7 +1048,6 @@ header, body{
 
     margin: 0 0 16px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 18px;
     color: #FFFFFF;
@@ -1127,7 +1066,6 @@ header, body{
 
     margin: 24px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 28px;
     color: #FFFFFF;
@@ -1140,7 +1078,6 @@ header, body{
 
     margin: 0 0 48px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #FFFFFF;
@@ -1153,7 +1090,6 @@ header, body{
 
     margin: 0 0 6px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #FFFFFF;
@@ -1249,15 +1185,7 @@ header, body{
 }
 
 .section-8-text-main-1{
-    cursor: default;
-
     margin: 0 0 48px 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-8-text-main-2{
@@ -1267,7 +1195,6 @@ header, body{
     margin: 0 48px 96px 48px;
 
     text-align: center;
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -1283,7 +1210,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 18px;
     color: #212529;
@@ -1335,7 +1261,6 @@ header, body{
 
     margin: 0 0 48px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 28px;
     color: #212529;
@@ -1348,7 +1273,6 @@ header, body{
 
     margin: 0 0 16px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -1464,7 +1388,6 @@ header, body{
 .section-8-div-end > a{
     text-decoration: none;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #3597FF;
@@ -1519,18 +1442,11 @@ header, body{
 }
 
 .section-9-text-first{
-    cursor: default;
-
     width: 100%;
     
     margin: 0 0 48px 0;
     
     text-align: center;
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-9-div-first-cards{
@@ -1564,7 +1480,6 @@ header, body{
 
     margin: 0 0 24px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 20px;
     color: #212529;
@@ -1576,7 +1491,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -1602,7 +1516,6 @@ header, body{
     margin: 24px 0 72px 0;
     
     text-align: center;
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 40px;
     color: #212529;
@@ -1636,7 +1549,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 14px;
     color: #666B8D;
@@ -1648,7 +1560,6 @@ header, body{
 
     margin: 16px 0 0 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     font-size: 20px;
     color: #212529;
@@ -1663,7 +1574,6 @@ header, body{
 
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -1740,7 +1650,6 @@ header, body{
 .section-10-div-a > a{
     text-decoration: none;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #3597FF;
@@ -1772,18 +1681,6 @@ header, body{
     align-items: center;
     
     max-width: 440px;
-}
-
-.section-11-div-left > p{
-    cursor: default;
-
-    margin: 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-11-div-right{
@@ -1892,15 +1789,7 @@ header, body{
 }
 
 .section-13-text-left-1{
-    cursor: default;
-
     margin: 0 0 16px 0;
-
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529  ;
-    letter-spacing: 1px;
 }
 
 .section-13-text-left-2{
@@ -1908,7 +1797,6 @@ header, body{
 
     margin: 0 0 24px 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #666B8D;
@@ -1937,7 +1825,6 @@ header, body{
 
     padding: 18px 50px;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 14px;
     color: #FFFFFF;
@@ -1975,16 +1862,9 @@ header, body{
 }
 
 .section-14-text-main{
-    cursor: default;
-
     margin: 0 0 96px 0;
 
     text-align: center;
-    font-family: SF-Pro-Display, sans-serif;
-    font-weight: 0;
-    font-size: 40px;
-    color: #212529;
-    letter-spacing: 1px;
 }
 
 .section-14-div-imgs{
@@ -2037,7 +1917,6 @@ header, body{
     padding: 0 12px 0 36px;
     margin: 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 0;
     font-size: 20px;
     color: #212529;
@@ -2062,7 +1941,6 @@ header, body{
 
     border-radius: 0.4rem;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 16px;
     color: #000000;
@@ -2087,7 +1965,6 @@ header, body{
 }
 
 .section-15-div-input > input::placeholder{
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     font-size: 14px;
     color: #666B8D;

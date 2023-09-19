@@ -47,6 +47,10 @@ header, body{
     display: none;
 }
 
+*{
+    font-family: "SF-Pro-Display", sans-serif;
+}
+
 /*#endregion*/
 
 /*#region General*/
@@ -78,7 +82,6 @@ header, body{
 
     margin: 0 24px 0 0;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 200;
     font-size: 16px;
     color: #212529;
@@ -110,7 +113,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -214,7 +216,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
@@ -266,7 +267,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
@@ -326,7 +326,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 50;
     color: #212529;
     letter-spacing: 1px;
@@ -361,7 +360,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -393,7 +391,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
@@ -426,7 +423,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
@@ -453,7 +449,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
@@ -628,7 +623,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -656,7 +650,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -697,7 +690,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -725,7 +717,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -757,7 +748,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -790,7 +780,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
@@ -837,7 +826,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
     letter-spacing: 1px;
@@ -869,7 +857,6 @@ header, body{
     background-color: transparent;
     border: solid 0.1rem #212529;
 
-    font-family: SF-Pro-Display, sans-serif;
     font-weight: 100;
     color: #212529;
 
